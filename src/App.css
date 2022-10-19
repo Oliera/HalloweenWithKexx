@@ -1,0 +1,12 @@
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgb(147, 53, 150);
+  background-image: url("../src/assets/main2.jpeg");
+  background-repeat: round;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}

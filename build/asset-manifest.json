@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc940259.css",
+    "main.js": "/static/js/main.05e70c67.js",
+    "static/media/wood.png": "/static/media/wood.75f120469d7cd4722e80.png",
+    "static/media/cartoon.png": "/static/media/cartoon.0aee66eddc15bbe0edb1.png",
+    "static/media/ghosts.gif": "/static/media/ghosts.0eb3ca002f00c89d9c0e.gif",
+    "static/media/main2.jpeg": "/static/media/main2.7b8e3177a317d094f756.jpeg",
+    "static/media/11.jpg": "/static/media/11.c11c8b062e47a33660f7.jpg",
+    "static/media/main3.jpeg": "/static/media/main3.e7f9a15d8d69d46ff286.jpeg",
+    "static/media/pumpkin.png": "/static/media/pumpkin.c9fcaf2dee39cb4fa256.png",
+    "static/media/3.jpg": "/static/media/3.670c039d67d32480d1d2.jpg",
+    "static/media/2.jpg": "/static/media/2.d4fecf3a8bd13544d0cc.jpg",
+    "static/media/6.jpg": "/static/media/6.06a38c586769d352e938.jpg",
+    "static/media/10.jpg": "/static/media/10.769ba16ca7541706b9e5.jpg",
+    "static/media/5.jpg": "/static/media/5.eb3b713c3f8957a93aac.jpg",
+    "static/media/1.jpg": "/static/media/1.afa9b9ce4dd8fce088f5.jpg",
+    "static/media/12.jpg": "/static/media/12.9d69d6e39d6da6d1d53b.jpg",
+    "static/media/9.jpg": "/static/media/9.3e0b36a8a069b7df086a.jpg",
+    "static/media/8.jpg": "/static/media/8.5c13f5cab4ed3f962655.jpg",
+    "static/media/4.jpg": "/static/media/4.4d9f23853a4feea8d50b.jpg",
+    "static/media/13.jpg": "/static/media/13.c3dd4dabb85a2c4ad8e4.jpg",
+    "static/media/7.jpg": "/static/media/7.7552b80d9a7f957316d0.jpg",
+    "static/media/fire.gif": "/static/media/fire.fbcb24a52da9babfe73d.gif",
+    "static/media/title.png": "/static/media/title.6a04362035da9c3454b2.png",
+    "index.html": "/index.html",
+    "main.dc940259.css.map": "/static/css/main.dc940259.css.map",
+    "main.05e70c67.js.map": "/static/js/main.05e70c67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc940259.css",
+    "static/js/main.05e70c67.js"
+  ]
+}

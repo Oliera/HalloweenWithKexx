@@ -1,0 +1,126 @@
+.main {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/main3.jpeg");
+  background-repeat: no-repeat;
+  // background-size: contain;
+  background-size: 100% 30%;
+  margin-top: 60px;
+}
+
+.logo {
+  width: 45%;
+}
+
+.ghosts {
+  animation-name: ghosts;
+  animation-duration: 9s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes ghosts {
+  0% {
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.ghostsInvers {
+  animation-name: ghostsInvers;
+  animation-duration: 13s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes ghostsInvers {
+  0% {
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.headTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-image: url("../../assets/main2.jpeg");
+  color: rgb(0, 0, 0);
+
+  width: 100%;
+}
+
+.mainTitle {
+  color: rgb(0, 0, 0);
+  margin-bottom: 0;
+}
+
+.congratulate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  color: aliceblue;
+}
+
+ul {
+  color: black;
+  font-weight: 700;
+}
+
+h2 {
+  color: black;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+}
+
+li {
+  margin: 10px 10px;
+  color: black;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+  .main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 386px) {
+  h1 {
+    font-size: 30px;
+  }
+  .main {
+    width: 100%;
+  }
+}
