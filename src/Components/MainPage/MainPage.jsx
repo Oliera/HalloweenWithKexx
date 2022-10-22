@@ -7,8 +7,16 @@ import pumpkin from "../../assets/pumpkin.png";
 import styles from "./MainPage.module.scss";
 import titleLogo from "../../assets/title.png";
 import { clothes, princessDress, surDress } from "../../constants/constants";
+import location from "../../assets/location.png";
 
 const MainPage = () => {
+  const uri =
+    "https://yandex.ru/navi/?whatshere%5Bzoom%5D=18&whatshere%5Bpoint%5D=38.937117%2C47.217451&lang=ru&from=nav";
+
+  const handleClickLocation = () => {
+    window.open(uri);
+  };
+
   return (
     <div className={styles.main}>
       <div className={styles.head}>
@@ -47,7 +55,7 @@ const MainPage = () => {
         </div>
         <div
           className={styles.head}
-          style={{ marginTop: "-10px", position: "relative" }}
+          style={{ marginTop: "-3px", position: "relative" }}
         >
           <img
             src={wood}
@@ -72,7 +80,7 @@ const MainPage = () => {
             }}
           />
         </div>
-        <div className={styles.head} style={{ marginTop: "180px" }}>
+        <div className={styles.head} style={{ marginTop: "168px" }}>
           <h2>Мы проведём с тобой</h2>
           <h2>незабываемую ночь</h2>
           <p
@@ -97,7 +105,15 @@ const MainPage = () => {
             <li style={{ position: "relative" }}>
               <span style={{ color: "black" }}>
                 Я слышу твой вопрос: "Так а куда ехать-то?" <br />
-                Локация вечеринки по адресу: ул. Адмирала Крюса, 6, Таганрог.
+                Локация вечеринки по адресу: ул. Лесная Биржа, 6, Таганрог.
+                <br /> Открыть в навигаторе:
+                <img
+                  src={location}
+                  alt=''
+                  onClick={handleClickLocation}
+                  width={30}
+                  height={30}
+                />
               </span>
             </li>
             <li style={{ position: "relative" }}>
@@ -118,7 +134,6 @@ const MainPage = () => {
           <h2 style={{ margin: "10px 0 20px" }}>Dress-code</h2>
           <p>
             Дай волю своим самым смелым фантазиям!
-            {/* <span style={{ color: "black" }}>Платья:</span> */}
             <br /> Костюм на эту вечеринку может быть абсолютно любой, вот
             несколько примеров:
           </p>
