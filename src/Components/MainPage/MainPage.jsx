@@ -1,11 +1,9 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import ListFoto from "../ListFoto/ListFoto";
-import ghosts from "../../assets/ghosts.gif";
 import wood from "../../assets/wood.png";
 import pumpkin from "../../assets/pumpkin.png";
 import styles from "./MainPage.module.scss";
-import titleLogo from "../../assets/title.png";
 import { clothes, princessDress, surDress } from "../../constants/constants";
 import location from "../../assets/location.png";
 
@@ -26,12 +24,6 @@ const MainPage = () => {
           width={100}
           style={{ marginTop: "20px" }}
         />
-        <img src={titleLogo} alt='title' width={350} />
-        <div style={{ width: "114%", height: "116px", position: "absolute" }}>
-          <div className={styles.ghosts} ы>
-            <img src={ghosts} className={styles.logo} alt='rabbit' />
-          </div>
-        </div>
         <div style={{ marginTop: "40px" }}>
           <p>
             Здравствуй, <br />
@@ -55,7 +47,7 @@ const MainPage = () => {
         </div>
         <div
           className={styles.head}
-          style={{ marginTop: "-3px", position: "relative" }}
+          style={{ marginTop: "170px", position: "relative" }}
         >
           <img
             src={wood}
@@ -80,7 +72,7 @@ const MainPage = () => {
             }}
           />
         </div>
-        <div className={styles.head} style={{ marginTop: "168px" }}>
+        <div className={styles.head} style={{ marginTop: "180px" }}>
           <h2>Мы проведём с тобой</h2>
           <h2>незабываемую ночь</h2>
           <p
@@ -126,6 +118,12 @@ const MainPage = () => {
               <span style={{ color: "black" }}>
                 Не исключено, что рассвет ты встретишь с новыми мыслями,
                 желаниями и друзьями!
+              </span>
+            </li>
+            <li style={{ position: "relative" }}>
+              <span style={{ color: "black" }}>
+                В прилгласительном есть карта - возьми ее с собой на вечеринку,
+                если хочешь узнать свою судьбу!
               </span>
             </li>
           </ul>
